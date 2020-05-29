@@ -289,7 +289,7 @@ controller:
 
 ## AWS L7 ELB with SSL Termination
 
-Annotate the controller as shown in the [nginx-ingress l7 patch](https://github.com/kubernetes/ingress-nginx/blob/master/deploy/aws/l7/service-l7.yaml):
+Annotate the controller with configuration options [found in the official kubernetes documentation](https://kubernetes.io/docs/concepts/cluster-administration/cloud-providers/#aws):
 
 ```yaml
 controller:
